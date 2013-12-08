@@ -1,7 +1,9 @@
 <?php
 /*-------------------------------------------------------------------------------------------------
 Name: Carine Melhorn
-Project Name: p4.test-csie15.biz
+Student HuId: 50713350 / extension school id @00070108
+Project Name: p2.test-csie15.biz
+github username: mimi11
    -------------------------------------------------------------------------------------------------*/
 class index_controller extends base_controller
 {
@@ -25,7 +27,7 @@ class index_controller extends base_controller
         $this->template->content = View::instance('v_index_index');
 
         # Now set the <title> tag
-        $this->template->title = "Home";
+        $this->template->title = "CM-Buzz";
 
         # CSS/JS includes
 
@@ -40,6 +42,26 @@ class index_controller extends base_controller
         echo $this->template;
 
     } # End of method
+
+
+    public function signup() {
+
+        # Setup view
+        $this->template->content = View::instance('v_users_signup');
+        $this->template->title   = "Sign Up";
+
+        # Render template
+        echo $this->template;
+
+    }
+
+    public function p_signup() {
+
+        # Dump out the results of POST to see what the form submitted
+        echo '<pre>';
+        print_r($_POST);
+        echo '</pre>';
+    }
 
 
 } # End of class
