@@ -1,0 +1,42 @@
+/*
+ERIC MEYER RESET
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+
+
+/* style sheet rules begins heres */
+
+
+body { width: 100%; line-height: 1; color: #535F53; background: #fff; font-family: Helvetica, Verdana, Arial, sans-serif; }
+ol, ul { list-style: none; }
+ol, ul { list-style: none; }
+a { text-decoration: none; border: none; color: blue; }
+a:hover { text-decoration: underline;background-color: lightblue }
+
+p { margin-bottom: 30px; width: 100%; }
+
+small { font-size: 0.8em; }
+strong { font-weight: bold; }
+
+#wrapper { width: 960px; margin: 7px auto; background: #fff }
+#signup{background-color: #afeeee;padding:1.3em;color:white;text-align:right;}
+#signup h1{font-size:3em;text-align:left;color:#809131;font-family:"colona mt";}
+#signup h2{font-size:1em;text-align:left;color:#535F53}
