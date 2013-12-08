@@ -22,7 +22,10 @@
 	require CORE_PATH."bootstrap.php";
 
 # Routing
+<<<<<<< HEAD
 # You can use regexp, for example '/users/([A-Za-z0-9-\s\@]+)' => '/members/$0',
+=======
+>>>>>>> f92dad1a19f8fbe6e0af6e82a45ffd7cd1332c86
     Router::$routes = array(
     	'/' => '/index',     # default controller when "/" is requested
     );
