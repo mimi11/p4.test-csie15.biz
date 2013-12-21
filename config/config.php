@@ -14,19 +14,11 @@ If you want a different default time format for this app, set it below
 */
 
 # What is the name of this app?
-<<<<<<< HEAD
-	define('APP_NAME', 'CM-BUZZ');  
+define('APP_NAME', 'CM-Buzz');
 
 # When email is sent out from the server, where should it come from?
 # Ideally, this should match the domain name
-	define('APP_EMAIL', 'admin@test-csie15.biz'); 
-=======
-	define('APP_NAME', 'CMBUZZ');
-
-# When email is sent out from the server, where should it come from?
-# Ideally, this should match the domain name
-	define('APP_EMAIL', 'cmelhorn@g.harvard.edu'); 
->>>>>>> f92dad1a19f8fbe6e0af6e82a45ffd7cd1332c86
+define('APP_EMAIL', 'cmelhorn@g.harvard.edu');
 
 /* 
 A email designated to receive messages from the server. Examples:
@@ -35,32 +27,21 @@ A email designated to receive messages from the server. Examples:
  	* Logs, cron results, errors, etc.
  	
  	Some might want this to be the same as the APP_EMAIL, others might want to create a designated gmail address for it
-*/ 	
-<<<<<<< HEAD
-	define('SYSTEM_EMAIL', 'cmelhorn@g.harvard.edu'); 
+*/
+define('SYSTEM_EMAIL', 'cmelhorn@g.harvard.edu');
 
 # Default DB name for this app
-	define('DB_NAME', 'tessie_p4_test-csie15.biz'); 
-=======
-	define('SYSTEM_EMAIL', 'cmelhorn@g.harvard.edu');
-
-# Default DB name for this app
-	define('DB_NAME', "tessie_p4_test-cscie15_biz");
->>>>>>> f92dad1a19f8fbe6e0af6e82a45ffd7cd1332c86
+define('DB_NAME', "tessie_p4_test-cscie15_biz");
 
 # Timezone
-	define('TIMEZONE', 'America/New_York');
+define('TIMEZONE', 'America/New_York');
 
 # If your app is going to have outgoing emails, you should fill in your SMTP settings
 # For this you could use gmail SMTP or something like http://sendgrid.com/
-	//define('SMTP_HOST', '');
-	//define('SMTP_USERNAME', '');
-	//define('SMTP_PASSWORD', '');
+//define('SMTP_HOST', '');
+//define('SMTP_USERNAME', '');
+//define('SMTP_PASSWORD', '');
 
 # For extra security, you might want to set different salts than what the core uses
-	//define('PASSWORD_SALT', '');
-<<<<<<< HEAD
-	//define('TOKEN_SALT', '');
-=======
-	//define('TOKEN_SALT', '');
->>>>>>> f92dad1a19f8fbe6e0af6e82a45ffd7cd1332c86
+//define('PASSWORD_SALT', '');
+//define('TOKEN_SALT', '');
